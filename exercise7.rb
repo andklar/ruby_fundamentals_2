@@ -11,3 +11,11 @@ students = {
 students.map do |key, value|
   puts " #{key}: #{value}"
 end
+
+# 3
+
+students[:cohort4] = 43
+
+# 4
+
+puts students.keys
