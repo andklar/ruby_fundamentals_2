@@ -16,3 +16,9 @@ print_list(grocery_list)
 # 2
 
 print grocery_list.count
+
+
+if grocery_list.include? 'Bananas'
+  print " You need to pick up bananas"
+else print " You don\'t need to pick up bananas today"
+end
