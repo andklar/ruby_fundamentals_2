@@ -3,7 +3,6 @@
 def print_list(grocery_list)
   grocery_list.each do |item|
     puts "* #{item}"
-    grocery_list.length
   end
 end
 
@@ -24,3 +23,7 @@ else print " You don\'t need to pick up bananas today"
 end
 
 print grocery_list[1]
+
+grocery_list.sort.each do |item|
+  puts "* #{item}"
+end
