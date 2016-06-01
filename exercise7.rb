@@ -33,3 +33,13 @@ puts students
 students.delete(:cohort2)
 
 puts students
+
+#7
+
+count = 0
+
+students.values.each do |num_of_stu|
+  count += num_of_stu
+end
+
+puts count
